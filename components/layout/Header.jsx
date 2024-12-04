@@ -8,7 +8,7 @@ const Header = () => {
         {/* Logo */}
         <Logo />
         {/* Logo Ends */}
-        <Nav />
+        {/* <Nav /> */}
       </div>
     </nav>
   );
