@@ -8,6 +8,8 @@ const InterceptedPhotoDetailsPage = async ({ params: { id, lang } }) => {
   const response = await fetch(`${process.env.API_BASE_URL}/photos/${id}`);
   const photo = await response.json();
 
+  console.log(photo);
+
   // translated string
   const dictionary = await getDictionary(lang);
 
